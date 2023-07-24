@@ -1,0 +1,779 @@
+20230531	15:12:02	 cca2c794-5792-42da-b665-ca004ca41b6b	 TypeError: fsPromises.readFil is not a function
+20230623	15:02:52	 856838cb-443c-486f-abd3-915c9b850b57	 Error: Not allowd by cors
+    at origin (C:\Users\MMµ\Desktop\node\express\server.js:17:16)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\MMµ\Desktop\node\express\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\MMµ\Desktop\node\express\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\MMµ\Desktop\node\express\middleware\logEvents.js:27:3)
+20230623	15:02:52	 41a3afe2-7817-4ec3-9dfc-1e785c18b681	 Error: Not allowd by cors
+    at origin (C:\Users\MMµ\Desktop\node\express\server.js:17:16)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\MMµ\Desktop\node\express\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\MMµ\Desktop\node\express\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\MMµ\Desktop\node\express\middleware\logEvents.js:27:3)
+20230623	18:47:58	 44c815ea-9eac-44a1-918c-a1c0514ff585	 Error: ENOENT: no such file or directory, stat 'C:\Users\MMµ\Desktop\node\express\routes\index.html'
+20230623	18:47:58	 3a1a0bae-47c8-4a14-9db5-8e9db4692dcb	 Error: ENOENT: no such file or directory, stat 'C:\Users\MMµ\Desktop\node\express\routes\index.html'
+20230623	18:48:18	 24c5687a-a470-4031-b8f9-b5a8fcbb3d23	 Error: ENOENT: no such file or directory, stat 'C:\Users\MMµ\Desktop\node\express\routes\index.html'
+20230623	18:48:18	 b335a111-9cb8-4984-8e96-4c88a656d398	 Error: ENOENT: no such file or directory, stat 'C:\Users\MMµ\Desktop\node\express\routes\index.html'
+20230623	18:49:05	 27c4a503-abb4-4b75-83db-a141880e612d	 Error: ENOENT: no such file or directory, stat 'C:\Users\MMµ\Desktop\node\express\index.html'
+20230623	18:49:06	 e4b90b10-e39f-4c91-bde5-5b923d4421ac	 Error: ENOENT: no such file or directory, stat 'C:\Users\MMµ\Desktop\node\express\index.html'
+20230623	18:49:07	 9d27f9d7-5583-43a3-a987-4f7a721deeef	 Error: ENOENT: no such file or directory, stat 'C:\Users\MMµ\Desktop\node\express\index.html'
+20230623	18:49:08	 8e3a2b31-d038-4376-b466-3820907b39eb	 Error: ENOENT: no such file or directory, stat 'C:\Users\MMµ\Desktop\node\express\index.html'
+20230704	13:31:04	 079ebc3f-abe1-4f37-b17b-13ea1f96fb4d	 ReferenceError: firstname is not defined
+    at createNewEmployee (C:\Users\MMµ\Desktop\node\express\controllers\employeesController.js:18:3)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:144:13)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:140:7)
+    at Route.dispatch (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:175:3)
+20230704	13:31:39	 b9c8e763-6903-419e-8212-cf9eb5c5572b	 ReferenceError: setEmployees is not defined
+    at createNewEmployee (C:\Users\MMµ\Desktop\node\express\controllers\employeesController.js:20:3)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:144:13)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:140:7)
+    at Route.dispatch (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:175:3)
+20230704	14:15:22	 0736b06f-9fb3-48fb-b2a3-7ed41ca58d21	 TypeError: data.employees is not a function
+    at deleteEmployee (C:\Users\MMµ\Desktop\node\express\controllers\employeesController.js:54:8)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:144:13)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:140:7)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:140:7)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:140:7)
+    at Route.dispatch (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+20230710	15:04:04	 955cfab9-89a2-47a2-ae30-c1608218238e	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:70:12)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:265:14)
+20230710	15:05:09	 bb338e64-ec7b-4e00-8170-ab713d428971	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:05:11	 5a9006cf-79a3-4478-935f-aa797f731651	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:52	 33de62b4-c820-480f-b9f7-01458f19718e	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:53	 306246d9-c1d3-4b40-b072-bf36c9a232ed	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:53	 063e5933-11fb-4577-8bee-1f1715bd63b9	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:54	 64d02c4c-e877-4504-ba95-440dae44f5ac	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:54	 b87e4c4e-2c65-4986-9bd3-7d93b3ec726b	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:54	 1b7e6662-0fa1-4267-a17e-20ab957bd28d	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:54	 cec8ff58-1f4c-48d9-bebd-60a3cffa8e9d	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:55	 c49c86b5-8072-428b-b3f8-51f9550af78a	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:55	 12c23cc2-5dcc-4c5e-9982-501118370ba7	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:55	 e0341a50-fa34-492e-963a-cc94d88c357f	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:55	 9644a2fa-788c-4c3f-a284-550c5033c80e	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:56	 c5b2636d-7d80-425d-9263-4615d991b4ec	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:56	 ff9a9938-37fd-4813-b0c0-82c9d30d568c	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:56	 20476573-9d6b-4488-9f35-fbb9803ebecc	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:56	 625c05df-6310-46c2-9af3-721d58046b6e	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:57	 be4b5068-111f-4f39-b17a-5851a21d1c11	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:57	 636d3390-7d6c-4813-8f54-aae2e48d2557	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:57	 1c651bf9-0be4-4287-92b5-5e45ac84b834	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:57	 ed273933-bfbf-44a0-991f-4c5a0d42fbea	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:57	 ccac6093-e31f-4f3e-b7fb-6af253549323	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:58	 229e4aef-c16b-4864-bcdb-9762f1a16552	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:58	 f15d4506-62b8-45ff-b9cd-e56de3342157	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:58	 a304c726-82a4-42e0-a590-300b8ecb4e18	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230710	15:07:58	 2a4d1760-83c9-4c21-86fd-a9518c8b4fb8	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	13:51:21	 99b9cb7a-132b-4bd1-a62b-fc8ebf949cf0	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	14:01:15	 66e54aee-941d-4f21-b6d2-364153083cd3	 TypeError: Cannot read properties of undefined (reading 'username')
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:10:33
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	14:42:19	 da5b1f39-af3c-4c17-98b4-4b493f59ede8	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	14:42:58	 f36dcc22-504e-4ddf-890f-dbb8b20141fc	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	14:50:47	 eb75be6c-8aa0-4e42-ab17-98388a9ea4a1	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:12:22	 49741726-e1fa-4a1f-9276-7fa5920ba4a8	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:22:09	 3a1f374c-1d8f-4109-81ad-91d54e6558d2	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:22:36	 f3b80df1-f3f5-43e6-8927-e207562d3f6c	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:34:48	 a64ef40a-05f9-4041-a435-a96af4b95176	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:35:11	 c40873c8-2df9-49d4-b438-72c87fea246e	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:35:42	 32b02753-aa14-40ce-8611-e10cb33b7dc0	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:36:49	 42f0383a-c391-44fc-aa3c-d077639a04e4	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:36:50	 3d99552c-9b17-4d2e-811b-a9f781877802	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:02	 3e7971ad-37e6-4c8f-8d3a-cea29bd885c1	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:03	 5dd98579-d6fc-4062-b73f-a769547a49d7	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:03	 44254f83-f670-44c3-a0e1-db873e7d9496	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:04	 560e8046-1f09-4274-b016-89ddbfb76685	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:04	 cfdfff47-622d-4138-8212-f757c41895be	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:04	 0bc6c48b-1ba3-4ace-b17e-d83bc4486730	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:04	 e1c89d6a-01dd-49b3-a9a0-0e4bbfc5b2e0	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:05	 753dfe28-d3ae-493f-8f4b-8e3bb9bfe26f	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:05	 e73aed95-88d3-448b-8b4e-cd7a66aea63c	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:05	 b762f006-4920-457a-8c4e-2b2d059e6a88	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:38:28	 987ef0e5-8837-4a7c-ab0e-ae9af1140108	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:39:28	 1c3c7f14-345d-4849-993d-63a491b8b3cb	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:24	 3fbe60b4-25a3-4a08-908b-7e86431a3928	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:24	 84be0c2f-8877-49ff-8db7-b6db3449381f	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:25	 ad95ab54-d984-4343-a6ff-399ed29bbeb8	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:25	 5088bf07-bd69-40c5-a883-1f4d5ce5debd	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:25	 615c0fe4-219e-4338-818a-f81dc9f6f097	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:25	 509240ac-7e3f-4cf4-9315-b45b98c281c9	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:25	 efec3a60-c264-4d8e-bbf7-e8ae592734ab	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:26	 5478f6ea-6a25-42c3-82da-38d8184bb439	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:26	 f23fff7d-d8b5-48d4-ac8a-dac40c9856e6	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:26	 d6f57f35-909c-4857-aa6d-1e0def77359d	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:40:26	 069414ac-d65c-4bbd-a4c6-518d49b0c8c9	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:41:11	 de31924b-00b5-4450-b287-40f6c9a9e51b	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
+20230720	17:41:12	 a6dd7e0a-f8d0-421a-93dd-4508626a57eb	 ReferenceError: sendStatus is not defined
+    at C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:9:14
+    at C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\MMµ\Desktop\node\express\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyJWT (C:\Users\MMµ\Desktop\node\express\middleware\verifyJWT.js:8:7)
+    at Layer.handle [as handle_request] (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\MMµ\Desktop\node\express\node_modules\express\lib\router\index.js:280:10)
